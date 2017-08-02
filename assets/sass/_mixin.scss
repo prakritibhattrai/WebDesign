@@ -1,0 +1,13 @@
+@mixin fw{
+	width:100%;
+	float:left;
+	position:relative;
+}
+
+@mixin borderradius($radius){
+	-webkit-border-radius:$radius;
+	-ms-border-radius:$radius;
+	-chrome-border-radius:$radius;
+	-moz-border-radius:$radius;
+	-o-border-radius:$radius;
+}

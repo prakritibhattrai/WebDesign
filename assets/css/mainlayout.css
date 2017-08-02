@@ -1,0 +1,230 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  float: left; }
+
+.slider {
+  width: 100%;
+  float: left;
+  position: relative; }
+
+.cmnDiv {
+  width: 100%;
+  position: relative;
+  float: left; }
+
+.section-1 .circleIcon {
+  background-color: #2ecae0;
+  height: 50px;
+  width: 50px;
+  display: block;
+  text-align: center;
+  -webkit-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -chrome-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  margin: 0px auto; }
+  .section-1 .circleIcon i {
+    vertical-align: middle;
+    color: #FFFFFF;
+    line-height: 50px; }
+.section-1 h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: #6e7774; }
+.section-1 h4 {
+  margin-top: 85px;
+  text-align: center;
+  color: #6e7774; }
+.section-1 p {
+  text-align: center;
+  margin-top: 10px;
+  list-style-type: none;
+  color: #6e7774; }
+
+/*--carousel--*/
+.carousel {
+  height: 500px;
+  margin-bottom: 60px; }
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10; }
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777; }
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px; }
+
+/*--end--*/
+@media (min-width: 768px) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4; } }
+.themebg {
+  width: 100%;
+  position: realtive;
+  float: left;
+  margin-top: 40px; }
+
+.imgBg-1 {
+  margin-top: 40px;
+  width: 100%;
+  position: relative;
+  float: left;
+  height: 400px;
+  background-color: #011e22;
+  text-align: "center"; }
+  .imgBg-1:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: url("../images/themebg.png") no-repeat 0px -400px;
+    opacity: 0.4; }
+  .imgBg-1 h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 70px; }
+  .imgBg-1 p {
+    color: #FFFFFF;
+    text-align: center; }
+
+.gallery {
+  height: 450px;
+  width: 100%;
+  margin-top: 40px; }
+  .gallery img {
+    width: 275px;
+    height: 200px;
+    margin-top: 30px; }
+  .gallery h2 {
+    margin-top: 30px;
+    color: #6e7774;
+    text-align: center; }
+  .gallery p {
+    color: #6e7774;
+    text-align: center; }
+
+.contents {
+  height: 350px;
+  background-color: #011e22;
+  margin-top: 50px; }
+  .contents h2 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 40px; }
+  .contents p {
+    margin-top: 40px;
+    color: #FFFFFF;
+    text-align: center; }
+
+.pagefooter {
+  background-color: #2ecae0;
+  height: 50px; }
+  .pagefooter p {
+    color: #FFFFFF;
+    margin-top: 20px; }
+
+.modal-stl-1 .modal-header {
+  background-color: #2ecae0; }
+  .modal-stl-1 .modal-header h4 {
+    color: #FFFFFF;
+    margin-top: 5px;
+    text-align: left; }
+.modal-stl-1 .modal-body {
+  color: #6e7774; }
+
+.modal-footer .btn {
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -chrome-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px; }
+
+.gallery-text {
+  width: 100%;
+  height: 100px;
+  background-color: #011e22; }
+  .gallery-text h2 {
+    text-align: center;
+    margin-top: 30px; }
+
+.AppForm
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  color: #6e7774; }
+
+.bt {
+  margin-top: 20px;
+  background-color: #FFFFFF;
+  color: #6e7774;
+  text-align: center; }
+
+.pageform {
+  background-color: #FFFFFF;
+  color: #6e7774;
+  margin-top: 5px 50px;
+  display: block; }
+
+.disp-h {
+  display: none;
+  background-color: #FFFFFF;
+  color: #6e7774;
+  margin-top: 5px 50px; }
+
+.navbar-main {
+  width: 100%;
+  height: 51px;
+  min-height: 40px;
+  float: left;
+  background-color: rgba(1, 30, 34, 0.7);
+  position: relative;
+  border: none; }
+
+.navbar-main {
+  position: relative; }
+  .navbar-main li .active {
+    display: block;
+    color: #2ecae0;
+    background-color: rgba(46, 202, 224, 0.2); }
+  .navbar-main li a {
+    color: #FFFFFF; }
+    .navbar-main li a:hover, .navbar-main li a:focus {
+      color: #2ecae0;
+      background-color: rgba(1, 30, 34, 0.1); }
+
+.navbar-brand {
+  display: block;
+  padding: 20px;
+  size: 15px; }
+
+.hr-nav li {
+  list-style-type: none;
+  display: block;
+  padding: 15px;
+  float: left; }
+  .hr-nav li.active {
+    color: #6e7774; }
+
+.bgHeader {
+  background-color: rgba(1, 30, 34, 0.7); }
+
+/*# sourceMappingURL=mainlayout.css.map */

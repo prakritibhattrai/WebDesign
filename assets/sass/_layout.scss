@@ -1,0 +1,257 @@
+.wrapper
+{
+	width:100%;
+	height:100%;
+	position:relative;
+  float:left;
+}
+
+
+.slider{
+  @include fw;
+
+}
+.cmnDiv{
+  width:100%;
+  position:relative;
+  float:left;
+}
+	
+	
+      .section-1{
+
+        .circleIcon
+        {
+        background-color:$base-color2;
+        height:50px;
+        width:50px;
+        display:block;
+        text-align:center;
+        
+        @include borderradius(100%);
+        margin: 0px auto;
+        
+
+      i{
+     
+      vertical-align: middle;
+      color:$base-white;
+      line-height:50px;
+
+
+      }
+      }
+      
+      h2
+       {  margin-top:30px;
+         text-align:center;
+         color:$base-grey;
+        
+        }
+      h4{
+      margin-top:85px;
+      text-align:center;
+        color:$base-grey;
+      } 
+       
+      
+      p
+       {
+       text-align:center;
+       margin-top:10px;
+       list-style-type:none;
+       color:$base-grey;
+       
+       }
+      }
+
+/*--carousel--*/
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/*--end--*/ 
+@media (min-width: 768px)
+ {
+  
+/* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+}     
+     
+
+.themebg
+{
+  width:100%;
+  position:realtive;
+  float:left;
+  margin-top:40px;
+}
+.imgBg-1
+
+ { 
+ margin-top:40px; 
+  width:100%;
+  position:relative;
+  float:left;
+  height: 400px;
+  background-color: $base-color;
+  text-align:"center";
+  
+
+&:after
+{
+  content:'';
+  display:block;
+  width:100%;
+  height:100%;
+  position:absolute;
+  left:0px;
+  right:0px;
+  top:0px;
+  bottom:0px;
+  background:url("../images/themebg.png") no-repeat 0px -400px ;
+  opacity:0.4;
+
+
+}
+h2
+{
+  color:$base-white;
+  text-align:center;
+  margin-top:70px;
+}
+p
+{ 
+ color:$base-white;
+  text-align:center;
+}
+
+}
+
+.gallery
+{
+  height:450px;
+  width:100%;
+  margin-top:40px;
+  
+  img{
+  width:275px;
+height:200px;
+margin-top:30px;
+
+  }
+h2
+{
+   margin-top:30px;
+
+  color:$base-grey;
+  text-align:center;
+}
+p
+{
+
+
+  color:$base-grey;
+  text-align:center;
+  
+}
+}
+.contents
+{
+   height:350px;
+   background-color:$base-color;
+  margin-top:50px; 
+
+h2
+{ 
+  color:$base-white;
+  text-align:center;
+  margin-top:40px; 
+}
+p
+{
+  margin-top:40px; 
+  color:$base-white;
+  text-align:center;
+  
+}
+}
+.pagefooter
+{
+  background-color:$base-color2;
+  height:50px;
+  
+
+  p{
+  color:$base-white;
+  margin-top:20px;
+  }
+
+}                                   
+
+.modal-stl-1
+{
+
+.modal-header
+{
+background-color:$base-color2;
+
+h4
+{
+  color:$base-white;
+  margin-top:5px;
+  text-align:left;
+}
+} 
+
+.modal-body
+{
+  color:$base-grey;
+} 
+
+}
+.modal-footer
+{
+  .btn{
+   @include borderradius(6px);
+}
+}
+.gallery-text
+{
+  width:100%;
+  height:100px;
+background-color:$base-color;
+
+
+h2
+{
+
+  text-align:center;
+  margin-top:30px;
+}
+}
+
+
+
